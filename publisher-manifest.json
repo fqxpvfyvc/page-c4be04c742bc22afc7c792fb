@@ -1,0 +1,74 @@
+{
+  "version": 2,
+  "template_version": "3a528c553883e59d7cfa",
+  "page_size": 20,
+  "site_id": "ab4f153855546afb88e15591",
+  "owner": "fqxpvfyvc",
+  "repo": "page-c4be04c742bc22afc7c792fb",
+  "title": "alphatechx",
+  "mode": "repo",
+  "articles": [
+    {
+      "id": "c4be04c742bc22afc7c792fb",
+      "a": "alphatechx",
+      "b": "",
+      "entity": "alphatechx",
+      "brand": "alphatechx",
+      "separator": "",
+      "path": "index.html",
+      "hash": "7d74e08691b25a74de919534fa6a0328078abd3b2b969f5eaf4e134d152178f7",
+      "content": {
+        "keyword1": "alphatechx",
+        "keyword2": "",
+        "primary_entity": "alphatechx",
+        "plans": [],
+        "clients": [],
+        "_offline": false,
+        "content": {
+          "AI_HERO_INTRO": "alphatechx 提供多层级网络加速套餐，满足个人、游戏与团队的连接需求。哪个套餐适合你？",
+          "AI_DESCRIPTION": "alphatechx 提供多层级网络加速套餐，满足个人、游戏与团队的连接需求。哪个套餐适合你？"
+        },
+        "_brand_page": {
+          "version": 3,
+          "body": "<style>\n  :root {--bg: #0a0a0a;--fg: #e8e8e8;--muted: #777777;--accent: #39ff14;--card: #111111;--border: #1f1f1f}\n  * {margin: 0;padding: 0;box-sizing: border-box}\n  body {background: var(--bg);color: var(--fg);font-family: ui-monospace, \"SF Mono\", Consolas, monospace;line-height: 1.6}\n  a {color: var(--accent);text-decoration: none}\n  /* Nav */\n  .nav-wrap {border-bottom: 1px solid var(--border);padding: 12px 24px;display: flex;gap: 16px;align-items: center;flex-wrap: wrap;font-size: 14px}\n  .breadcrumb {color: var(--muted)}\n  .breadcrumb a {color: var(--muted)}\n  .breadcrumb a:hover {color: var(--accent)}\n  .nav-links {margin-left: auto;display: flex;gap: 20px}\n  .nav-links a {color: var(--fg);font-size: 13px}\n  .nav-links a:hover {color: var(--accent)}\n  /* Hero */\n  .hero {display: grid;grid-template-columns: 1.5fr 1fr;min-height: 80vh}\n  .hero-left {padding: 80px 48px;display: flex;flex-direction: column;justify-content: center}\n  .hero-left h1 {font-size: 56px;font-weight: 900;margin-bottom: 24px;line-height: 1.1}\n  .hero-left h1 span {color: var(--accent)}\n  .hero-left p {color: var(--muted);font-size: 18px;max-width: 480px;margin-bottom: 32px}\n  .hero-cta {display: inline-flex;align-items: center;gap: 8px;color: var(--accent);border: 1px solid var(--accent);padding: 12px 24px;width: fit-content;font-size: 14px}\n  .hero-right {background: var(--card);border-left: 1px solid var(--border);padding: 48px;display: flex;flex-direction: column;justify-content: center}\n  .info-block {margin-bottom: 32px}\n  .info-block label {font-size: 12px;color: var(--muted);text-transform: uppercase;letter-spacing: 2px;display: block;margin-bottom: 8px}\n  .info-block strong {font-size: 32px;color: var(--accent);font-weight: 700}\n  .info-block span {display: block;font-size: 13px;color: var(--muted);margin-top: 4px}\n  /* Sections */\n  section {padding: 80px 48px;border-top: 1px solid var(--border)}\n  section h2 {font-size: 36px;margin-bottom: 16px;font-weight: 800}\n  section h2 span {color: var(--accent)}\n  .section-intro {color: var(--muted);font-size: 17px;max-width: 640px;margin-bottom: 48px}\n  /* Cards */\n  .cards {display: grid;grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));gap: 24px}\n  .card {background: var(--card);border: 1px solid var(--border);padding: 32px;position: relative;overflow: hidden}\n  .card .big-num {position: absolute;bottom: -20px;right: 10px;font-size: 120px;font-weight: 900;color: var(--border);z-index: 0}\n  .card h3, .card p, .card ul {position: relative;z-index: 1}\n  .card h3 {font-size: 20px;margin-bottom: 12px;color: var(--accent)}\n  .card p {color: var(--muted);font-size: 14px;margin-bottom: 16px}\n  .card ul {list-style: none}\n  .card ul li {font-size: 13px;padding: 6px 0;border-bottom: 1px dashed var(--border)}\n  /* Plans Table */\n  .plans-table-wrap {overflow-x: auto}\n  table {width: 100%;border-collapse: collapse;min-width: 700px}\n  th, td {padding: 20px 24px;border: 1px solid var(--border);text-align: left;vertical-align: top}\n  th {background: var(--card);font-size: 13px;color: var(--muted);text-transform: uppercase}\n  td .plan-name {font-size: 20px;font-weight: 700;color: var(--accent);display: block;margin-bottom: 8px}\n  td .plan-price {font-size: 24px;font-weight: 800}\n  td .plan-annual {display: block;font-size: 12px;color: var(--muted);margin-top: 8px}\n  td ul {list-style: none}\n  td ul li {font-size: 13px;padding: 6px 0}\n  .featured-col {background: rgba(57, 255, 20, 0.05)}\n  /* FAQ */\n  .faq-grid {display: grid;grid-template-columns: 1fr 1fr;gap: 32px}\n  .faq-item {border-bottom: 1px solid var(--border);padding-bottom: 24px}\n  .faq-item h3 {font-size: 16px;color: var(--accent);margin-bottom: 12px}\n  .faq-item p {font-size: 14px;color: var(--muted)}\n  footer {padding: 48px;text-align: center;color: var(--muted);font-size: 12px;border-top: 1px solid var(--border)}\n  @media (max-width: 768px) {\n    .hero {grid-template-columns: 1fr}\n    .hero-right {border-left: none;border-top: 1px solid var(--border)}\n    .hero-left h1 {font-size: 36px}\n    .faq-grid {grid-template-columns: 1fr}\n    section {padding: 48px 24px}\n    .hero-left {padding: 48px 24px}\n    .hero-right {padding: 32px 24px}\n  }\n</style><nav class=\"nav-wrap\">\n  <div class=\"breadcrumb\"><a href=\"#home\">首页</a> / <a href=\"#plans\">套餐</a> / <a href=\"#faq\">常见问题</a></div>\n  <div class=\"nav-links\">\n    <a href=\"#about\">关于</a>\n    <a href=\"#features\">特性</a>\n    <a href=\"#plans\">套餐</a>\n    <a href=\"#faq\">FAQ</a>\n  </div>\n</nav>\n\n<main id=\"home\">\n  <section class=\"hero\">\n    <div class=\"hero-left\">\n      <h1>alphatechx · 连接，是否<span>通畅</span>？</h1>\n      <p>alphatechx 提供多层级网络加速方案。从日常浏览到游戏专线，总有一个套餐适合你的需求。你想解决什么问题？</p>\n      <a href=\"#plans\" class=\"hero-cta\">查看套餐对比 →</a>\n    </div>\n    <div class=\"hero-right\">\n      <div class=\"info-block\">\n        入门价格\n        <strong>¥15</strong>\n        <span>基础版每月，含 100GB 流量</span>\n      </div>\n      <div class=\"info-block\">\n        设备支持\n        <strong>3-20台</strong>\n        <span>根据套餐支持不同设备数量</span>\n      </div>\n      <div class=\"info-block\">\n        线路类型\n        <strong>IPLC</strong>\n        <span>旗舰版及以上包含专线优化</span>\n      </div>\n    </div>\n  </section>\n\n  <section id=\"features\">\n    <h2>它适合<span>你</span>吗？</h2>\n    <p class=\"section-intro\">不确定哪个版本适合自己？看看下面的场景描述。你属于哪一种用户？</p>\n    <div class=\"cards\">\n      <div class=\"card\">\n        <span class=\"big-num\">01</span>\n        <h3>日常浏览者</h3>\n        <p>偶尔访问海外网站，主要看视频和新闻。</p>\n        <ul>\n          <li>基础版即可满足</li>\n          <li>100GB 足够日常使用</li>\n          <li>支持 3 台设备</li>\n        </ul>\n      </div>\n      <div class=\"card\">\n        <span class=\"big-num\">02</span>\n        <h3>流媒体爱好者</h3>\n        <p>经常观看高清流媒体，对画质有要求。</p>\n        <ul>\n          <li>建议选择旗舰版</li>\n          <li>全节点原生解锁</li>\n          <li>300GB 流量更宽裕</li>\n        </ul>\n      </div>\n      <div class=\"card\">\n        <span class=\"big-num\">03</span>\n        <h3>游戏与团队</h3>\n        <p>需要低延迟游戏加速或多人共享使用。</p>\n        <ul>\n          <li>旗舰版含游戏加速</li>\n          <li>团队版支持 20 台设备</li>\n          <li>专属高带宽节点</li>\n        </ul>\n      </div>\n    </div>\n  </section>\n\n  <section id=\"plans\">\n    <h2>套餐<span>对比</span></h2>\n    <p class=\"section-intro\">不知道怎么选？直接看横向对比。哪一列最符合你的预算和需求？</p>\n    <div class=\"plans-table-wrap\">\n      <table>\n        <thead>\n          <tr>\n            <th>对比项</th>\n            <th>基础版</th>\n            <th class=\"featured-col\">旗舰版（推荐）</th>\n            <th>团队版</th>\n          </tr>\n        </thead>\n        <tbody>\n          <tr>\n            <td>价格</td>\n            <td>\n              <span class=\"plan-name\">基础版</span>\n              <span class=\"plan-price\">¥15/月</span>\n              <span class=\"plan-annual\">按年付仅需 ¥150/年</span>\n            </td>\n            <td class=\"featured-col\">\n              <span class=\"plan-name\">旗舰版</span>\n              <span class=\"plan-price\">¥35/月</span>\n              <span class=\"plan-annual\">按年付仅需 ¥350/年</span>\n            </td>\n            <td>\n              <span class=\"plan-name\">团队版</span>\n              <span class=\"plan-price\">¥85/月</span>\n              <span class=\"plan-annual\">按年付仅需 ¥850/年</span>\n            </td>\n          </tr>\n          <tr>\n            <td>流量</td>\n            <td>每月 100GB</td>\n            <td class=\"featured-col\">每月 300GB</td>\n            <td>每月 1000GB</td>\n          </tr>\n          <tr>\n            <td>设备数</td>\n            <td>3 台</td>\n            <td class=\"featured-col\">5 台</td>\n            <td>20 台</td>\n          </tr>\n          <tr>\n            <td>流媒体</td>\n            <td>解锁基础流媒体</td>\n            <td class=\"featured-col\">全节点原生流媒体解锁</td>\n            <td>VIP 专属高带宽节点</td>\n          </tr>\n          <tr>\n            <td>线路</td>\n            <td>普通线路节点池</td>\n            <td class=\"featured-col\">IPLC 专线游戏加速优化</td>\n            <td>支持企业定制路由</td>\n          </tr>\n          <tr>\n            <td>支持</td>\n            <td>常规支持</td>\n            <td class=\"featured-col\">7x24 优先工单支持</td>\n            <td>专属客户经理服务</td>\n          </tr>\n        </tbody>\n      </table>\n    </div>\n  </section>\n\n  <section id=\"faq\">\n    <h2>还有什么<span>疑问</span>？</h2>\n    <p class=\"section-intro\">关于使用和购买的常见问题。你的问题在这里有答案吗？</p>\n    <div class=\"faq-grid\">\n      <article class=\"faq-item\">\n        <h3>流量用完了怎么办？</h3>\n        <p>套餐流量用完后，你可以等待次月自动重置，或者升级到更高流量的套餐。比如从基础版升级到旗舰版，流量将提升至 300GB。</p>\n      </article>\n      <article class=\"faq-item\">\n        <h3>可以随时更换套餐吗？</h3>\n        <p>支持随时升级套餐，按差价补费即可生效。降级套餐则需在当前周期结束后生效。</p>\n      </article>\n      <article class=\"faq-item\">\n        <h3>支持哪些设备？</h3>\n        <p>支持主流桌面和移动平台。不同套餐支持的同时在线设备数不同，基础版 3 台，旗舰版 5 台，团队版 20 台。</p>\n      </article>\n      <article class=\"faq-item\">\n        <h3>年付和月付有什么区别？</h3>\n        <p>年付相当于以优惠价格一次性购买 10 个月的使用期，赠送 2 个月。例如旗舰版年付仅需 ¥350，相比月付节省 ¥70。</p>\n      </article>\n      <article class=\"faq-item\">\n        <h3>专线游戏加速是什么？</h3>\n        <p>旗舰版包含 IPLC 专线优化，针对游戏连接提供更低延迟的线路，适合对网络延迟敏感的在线游戏。</p>\n      </article>\n      <article class=\"faq-item\">\n        <h3>团队版可以定制路由吗？</h3>\n        <p>可以。团队版支持企业定制路由，并有专属客户经理协助配置，适合有特定网络需求的团队使用。</p>\n      </article>\n    </div>\n  </section>\n</main>\n\n<footer>\n  <p>© alphatechx. 本页面信息仅供参考。</p>\n</footer>",
+          "hash": "316691b44940d055f9a67642414321a2b6c20002c25e0c25403c359cfe9a925f",
+          "seo": {
+            "title": "alphatechx — 网络加速服务",
+            "keywords": "alphatechx,网络加速,专线,流媒体解锁",
+            "description": "alphatechx 提供多层级网络加速套餐，满足个人、游戏与团队的连接需求。哪个套餐适合你？"
+          },
+          "provider": "grok",
+          "model": "glm-5.3",
+          "design": {
+            "no": "6280",
+            "hero": "1 左文右信息面板的不对称分栏",
+            "palette": "1 墨黑配荧光绿",
+            "nav": "5 页面顶部面包屑加目录",
+            "card": "5 编号大字压底",
+            "plans_view": "1 横向对比表格",
+            "faq_view": "1 双栏问答",
+            "tone": "5 问答引导式",
+            "order": "首屏优先，其余区块由 AI 根据已选构图和信息关系安排"
+          }
+        }
+      }
+    }
+  ],
+  "domain": {
+    "apex": "xindigz.cn",
+    "host": "p-8b5e12f525.xindigz.cn",
+    "kind": "subdomain",
+    "candidate_roots_ref": "subdomain_roots:91e741dce7c147d9ce91af6f84daa678dae755807d903b04925261e0a3a8d804",
+    "prefix_mode": "auto"
+  },
+  "friendlinks": [],
+  "file_hashes": {
+    "index.html": "5b8a3a166fbe5b2717853fecb9d9a87373bab8bc32c9e7e42682f3c50f95d723",
+    "sitemap.xml": "7986ebaa9085846a67aa7c95048eb398c459c5a06a7a5a6fd66177ada1603850",
+    ".nojekyll": "12ae32cb1ec02d01eda3581b127c1fee3b0dc53572ed6baf239721a03d82e126",
+    "CNAME": "38ede5e896a2ade17f970e7b8179002f33757f495bc2f34e720eedef8b79638e",
+    "robots.txt": "93f91d7041c20bbea0fb7326e6cba436491060ebbdcf707633ca6a5e200f80c8",
+    "ac0cd69b7676bbf587f791568e5b8da9.txt": "7dd2404405367a30164c162c35d0c5ca9ff462c551f34979575324fd8323d204"
+  },
+  "revision": "057b1ecf45aeb380b543ceb7312525abc1e0b419143c8ffd3e9c2d7d538914b2"
+}
